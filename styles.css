@@ -1,0 +1,250 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.gradient{
+  background: radial-gradient(331.1% 76.51% at 100% 42.09%, #e5f1ff 0%, #FFF 33.19%);
+}
+
+#navbar-mobile{
+  display:none;
+}
+
+#main-container{
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+#left{
+  font-family: inconsolata;
+}
+
+#center{
+  font-family: inter;
+}
+
+#center > h1{
+  font-size: 5rem;
+  font-weight: 900;
+  animation: showup 2s forwards;
+}
+
+#center > h2{
+  font-size: 3rem;
+  font-weight: 600;
+  animation: showup 2s forwards;
+}
+
+#center > h4{
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: 200;
+  animation: showup 2s forwards;
+
+}
+
+
+.email-button{
+      font-weight: 600;
+      border-bottom-width: 1px;
+      background-color: white;
+      border-color: rgb(34, 34, 34);
+      border-left-width: 1px;
+      border-right-width: 1px;
+      border-style: solid;
+      border-top-width: 1px;
+      height: 50px;
+      width: 300px;
+      opacity: 1;
+      border-radius: 70px;
+}
+
+.email-button:hover{
+      font-weight: 600;
+        border-bottom-width: 1px;
+        background-color: black;
+        border-color: rgb(255, 255, 255);
+        color: white;
+        transition: 1s;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        height: 50px;
+        width: 300px;
+        opacity: 1;
+        border-radius: 70px;
+}
+
+.logo-img-desktop{
+  max-width: 70%;
+  animation: rotation 5s infinite linear;
+  transform:rotateY(360deg);
+}
+
+a{
+  text-decoration: none;
+  color: #3f3e3b
+}
+
+small{
+  font-weight: 300;
+}
+.logo-img{
+  max-width: 200px;
+}
+
+#left{
+ width: 25%; 
+}
+
+#center{
+ width: 70%; 
+}
+
+.presentation{
+  width: 50%;
+  margin-bottom: 2%;
+  margin: auto;
+}
+
+.frontend-img{
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+
+  #navbar-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7%;
+  }
+
+  .modal-dialog{
+    margin-top: 15%;
+  }
+
+
+  #main-container{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    gap: 1%;
+    margin-top: 5%;
+    align-items: center;
+  }
+  
+  #left{
+  display: none;
+  }
+
+  #center{
+    font-family: inter;
+    width: 100%;
+  }
+
+  #center > h1{
+    font-size: 3rem;
+    font-weight: 900;
+    animation: showup 2s forwards;
+  }
+
+  #center > h2{
+    font-size: 1rem;
+    font-weight: 600;
+    animation: showup 2s forwards;
+  }
+
+  #center > h4{
+    width: 50%;
+    font-size: 0.8rem;
+    font-weight:200;
+    animation: showup 2s forwards;
+}
+
+  .email-button{
+    width: 50%;
+    height: 35px;
+    font-size:0.6rem;
+    color: white;
+    background-color: black;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .menu{
+    font-weight: 600;
+    border-bottom-width: 1px;
+    background-color: black;
+    color: white;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    height: 50px;
+    max-width: 150px;
+    opacity: 1;
+    border-radius: 50px;
+  }
+
+  .menu:hover{
+    font-weight: 400;
+    border-bottom-width: 1px;
+    background-color: white;
+    color: black;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    height: 50px;
+    max-width: 150px;
+    opacity: 1;
+    border-radius: 50px;
+    transition: 2s;
+  }
+
+  .email-button:hover{
+        font-weight: 400;
+          border-bottom-width: 1px;
+          background-color: black;
+          border-color: rgb(255, 255, 255);
+          color: white;
+          transition: 1s;
+          border-left-width: 1px;
+          border-right-width: 1px;
+          border-style: solid;
+          border-top-width: 1px;
+          height: 35px;
+          width: 100%;
+          opacity: 1;
+          border-radius: 70px;
+  }
+
+  .logo-img{
+    max-width: 80px;
+  }
+
+  .presentation{
+    width:100%;
+    margin: auto;
+  }
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {}
+    80% {}
+    100% {opacity:1;}
+}
+
+  @keyframes rotation {
+      from {
+          transform: rotateY(0deg);
+      }
+      to {
+          transform: rotateY(360deg);
+      }
+  }
