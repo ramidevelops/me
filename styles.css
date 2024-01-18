@@ -1,6 +1,7 @@
 html {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .gradient{
@@ -23,25 +24,23 @@ html {
 
 #center{
   font-family: inter;
+  animation: showup 2s forwards;
 }
 
 #center > h1{
   font-size: 5rem;
   font-weight: 900;
-  animation: showup 2s forwards;
 }
 
 #center > h2{
   font-size: 3rem;
   font-weight: 600;
-  animation: showup 2s forwards;
 }
 
 #center > h4{
   width: 70%;
   font-size: 1.5rem;
   font-weight: 200;
-  animation: showup 2s forwards;
 
 }
 
@@ -80,14 +79,25 @@ html {
 
 .logo-img-desktop{
   max-width: 70%;
-  animation: rotation 5s infinite linear;
-  transform:rotateY(360deg);
+  animation-name:fadeInLeft;
+  animation-duration: 1s;
+  animation-timing-function: 1s;
 }
 
-a{
+nav>a{
+  display: inline-block;
+  position: relative;
   text-decoration: none;
   color: #3f3e3b
 }
+
+nav>a:hover{
+  animation-name: headShake;
+  animation-duration: 1s;
+  animation-timing-function: 1s;
+}
+
+
 
 small{
   font-weight: 300;
@@ -127,6 +137,7 @@ small{
 
   .modal-dialog{
     margin-top: 15%;
+    font-family: inconsolata;
   }
 
 
@@ -233,6 +244,8 @@ small{
     margin: auto;
   }
 
+}
+
 @keyframes showup {
     0% {opacity:0;}
     20% {}
@@ -240,11 +253,3 @@ small{
     100% {opacity:1;}
 }
 
-  @keyframes rotation {
-      from {
-          transform: rotateY(0deg);
-      }
-      to {
-          transform: rotateY(360deg);
-      }
-  }
