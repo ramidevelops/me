@@ -95,6 +95,8 @@ nav>a:hover{
   animation-name: headShake;
   animation-duration: 1s;
   animation-timing-function: 1s;
+  color:#000000;
+  text-decoration: none;
 }
 
 
