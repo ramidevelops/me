@@ -178,13 +178,14 @@ small{
     animation: showup 2s forwards;
 }
 
-  .email-button{
-    width: 50%;
-    height: 35px;
+  .email-button,{
+    width: 40%;
+    height: 50px;
     font-size:0.6rem;
     color: white;
     background-color: black;
     border-color: rgb(0, 0, 0);
+    transition: 1s ease-in-out;
   }
   
   .menu{
@@ -223,16 +224,16 @@ small{
   .email-button:hover{
         font-weight: 400;
           border-bottom-width: 1px;
-          background-color: black;
-          border-color: rgb(255, 255, 255);
-          color: white;
+          background-color: rgb(255, 255, 255);
+          border-color: rgb(0, 0, 0);
+          color: rgb(0, 0, 0);
           transition: 1s;
           border-left-width: 1px;
           border-right-width: 1px;
           border-style: solid;
           border-top-width: 1px;
-          height: 35px;
-          width: 100%;
+          height: 50px;
+          width: 80%;
           opacity: 1;
           border-radius: 70px;
   }
