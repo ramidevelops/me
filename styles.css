@@ -178,7 +178,7 @@ small{
     animation: showup 2s forwards;
 }
 
-  .email-button,{
+  .email-button{
     width: 40%;
     height: 50px;
     font-size:0.6rem;
