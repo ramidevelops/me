@@ -128,6 +128,31 @@ small{
   border-radius: 15px;
 }
 
+#pdf-box{
+  font-family: inconsolata, monospace;
+  font-size: 0.9rem;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-style: SOLID;
+  border-radius: 8PX;
+  border-color: #000000;
+  border-width: 1px;
+}
+
+#l-col{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#r-col{
+  padding: 0.5rem;
+  border-left: 1px solid;
+
+}
+
 @media (max-width: 992px) {
 
   #navbar-mobile{
