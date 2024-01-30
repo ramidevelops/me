@@ -255,6 +255,16 @@ small{
     margin: auto;
   }
 
+  #pdf-box{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  #r-col{
+    font-size: 0.6rem;
+  }
+
 }
 
 @keyframes showup {
