@@ -140,6 +140,12 @@ small{
   border-width: 1px;
 }
 
+#l-col>a:hover{
+    animation-name: headShake;
+    animation-duration: 1s;
+    animation-timing-function: 1s;
+}
+
 #l-col{
   width: 60%;
   margin: auto;
