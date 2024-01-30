@@ -142,8 +142,8 @@ small{
 
 #l-col>a:hover{
     animation-name: headShake;
-    animation-duration: 1s;
-    animation-timing-function: 1s;
+    animation-duration: 0.9s;
+    animation-timing-function: 0.9s;
 }
 
 #l-col{
