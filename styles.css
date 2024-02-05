@@ -159,7 +159,18 @@ small{
 
 }
 
+.lm-p{
+  max-width: 50%;
+  margin: 0 auto;
+  font-family: inconsolata;
+}
+
 @media (max-width: 992px) {
+
+  .lm-p{
+    max-width: 80%;
+    margin: 0 auto;
+  }
 
   #navbar-mobile{
     display: flex;
