@@ -3,9 +3,9 @@
   <defs>
     <style>
       .cls-1 {
-        font-family: OpenSans-Light, 'Open Sans';
+        font-family: 'Open Sans';
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 400;
         letter-spacing: -.03em;
       }
 
