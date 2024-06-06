@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180.77 23.84">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198.92 23.84">
   <defs>
     <style>
       .cls-1 {
         font-family: OpenSans-Light, 'Open Sans';
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 300;
         letter-spacing: -.03em;
       }
@@ -42,5 +42,5 @@
     <path class="cls-3" d="M52.78,4.55c.02,1.28-1.99,1.28-1.97,0-.02-1.28,1.99-1.28,1.97,0ZM50.91,4.55c-.03,1.17,1.81,1.17,1.78,0,.03-1.17-1.81-1.17-1.78,0ZM51.44,3.96c.51-.17,1.26.35.52.63l.35.54h-.11l-.35-.54h-.3v.54h-.1v-1.17ZM51.54,4.5c.82.14.79-.59,0-.45v.45Z"/>
   </g>
   <rect class="cls-2" x="61.92" width=".81" height="23.84"/>
-  <text class="cls-1" transform="translate(71.87 15.45)"><tspan x="0" y="0">Digital Asset Manager</tspan></text>
+  <text class="cls-1" transform="translate(71.87 16.04)"><tspan x="0" y="0">Digital Asset Manager</tspan></text>
 </svg>
