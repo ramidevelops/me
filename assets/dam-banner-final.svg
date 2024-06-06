@@ -4,7 +4,7 @@
     <style>
       .cls-1 {
         font-family: OpenSans-Light, 'Open Sans';
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 300;
         letter-spacing: -.03em;
       }
