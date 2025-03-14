@@ -224,9 +224,10 @@ small{
 }
 
   .email-button{
+    font-weight: 400;
     width: 50%;
     height: 50px;
-    font-size:0.6rem;
+    font-size:0.8rem;
     color: white;
     background-color: black;
     border-color: rgb(0, 0, 0);
@@ -253,7 +254,6 @@ small{
           border-style: solid;
           border-top-width: 1px;
           height: 50px;
-          width: 80%;
           opacity: 1;
           border-radius: 70px;
   }
